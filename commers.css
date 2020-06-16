@@ -1,0 +1,149 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background-color: #91EEDB;
+}
+/*-------Header--------*/
+header{
+	background-color: #fcd711;
+}	
+#select{
+	background-image: url(menu.png);
+}   
+
+table{
+	    border-bottom: 1px solid black;
+	    width: 100%; 
+}
+table tr td .logo{
+	height: 80px;
+	float: left; 
+}
+
+h1{
+	color: #056A81;
+	text-align: center;
+	font-size: 40px;
+	text-shadow: 1px 2px 5px brown;
+	font-family: Segoe Script;
+	margin-right: 0px;
+}
+h3{
+	text-align: center;
+	text-shadow: 1px 2px 5px brown;
+	padding-left: 0px;
+	font-family: Segoe Script;
+	margin-left: 0px;
+}
+table tr th .search{
+	height: 80%;
+	width: 90%;
+	border:1px solid black;
+}
+table tr th .cart{
+	height: 50px;
+	border-radius: 100%;
+}
+table tr th .cart:hover{
+	background-color: red;
+	border-radius: 100%;
+}
+table tr th .profile{
+	height: 50px;
+	border-radius: 100%;
+}
+table tr th .profile:hover{
+	border-radius: 100%;
+	background-color: red;
+}
+table tr th .menu{
+	height: 50px;
+	border-radius: 100%;
+}
+table tr th .menu:hover{
+	border-radius: 100%;
+	background-color: red;
+}
+.search:hover{
+	background-color: skyblue;
+}
+/*--------nav----------*/
+nav{
+	background-color: #34BFF3;
+	border-bottom: 1px solid red;
+}
+nav ul li,
+nav ul li a{
+	display: inline-block;
+	color: black;
+	padding: 3px;
+	padding-right: 18px;
+	text-decoration: blink;
+	border-right: 1px solid white;
+	font-family: Palatino Linotype;
+	border-left: 1px solid black;
+}
+nav ul li a:hover{
+	background-color: blue;
+	color: white;
+	transition: 0.5s;
+	padding-right: 0.5px;
+}
+/*---------section---------*/
+section{
+	background-color: white;
+	margin:5px;
+	float: left;
+	width: 100%;
+}
+#head{
+	width: 100%;
+}
+#advertise{
+	width: 100%;
+	height: 400px;
+	animation: slider 20s infinite linear;
+}
+@keyframes slider{
+	 0%{background-image: url(https://li0.rightinthebox.com/images/dfp/202004/LITB_c3349_3349202004_14136_f_cp_1_en.jpg?52); }
+	20%{background-image: url(https://li0.rightinthebox.com/images/dfp/202006/LITB_c0_2020060812_14652_home_wide1_en.gif?43); }
+	40%{background-image: url(https://li0.rightinthebox.com/images/dfp/202004/LITB_c3349_3349202004_14136_f_cp_2_en.jpg?52); }
+	60%{background-image: url(https://li0.rightinthebox.com/images/dfp/202006/LITB_c1015_20200522_14635_f_cp_1_en.gif?76);}
+	80%{background-image: url(https://i.ezbuy.sg/FqY2MoBeF7H49YWD-K_GGEeBNHwg?imageView2/2/q/90/format/webp]);}
+}
+	cursor: pointer;
+section article h2{
+	background-color: #F4EA1E;
+	margin-bottom: 2px;
+	font-family: Palatino Linotype;
+}
+#women1{
+	border:1px solid;
+	width: 200px;
+	height: 200px;
+}
+#women1{
+	border:1px solid;
+	width: 250px;
+	height: 250px;
+	box-shadow: 2px 2px 2px #F4EA1E;
+}
+#leftarrow{
+	width: 50px;
+	height: 50px;
+}
+#leftarrow:hover{
+	cursor: pointer;
+	border-radius: 100%;
+	background-color: #F4EA1E; 
+}
+/*-----footer------*/
+footer{
+	background-color: Red;
+	clear: both;
+	text-align: center;
+	color: white;
+}
+
